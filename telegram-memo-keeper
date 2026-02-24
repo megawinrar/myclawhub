@@ -1,0 +1,10 @@
+cd /home/clawd/.openclaw/workspace/telegram-memo-keeper
+
+# Push кода на GitHub
+git push -u origin main
+
+# Создай тег версии
+git tag v1.0.0
+
+# Push тега
+git push origin v1.0.0
