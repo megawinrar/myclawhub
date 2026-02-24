@@ -1,0 +1,20 @@
+{
+  "name": "telegram-memo-keeper",
+  "version": "1.0.0",
+  "description": "Telegram Group Watcher that extracts decisions, tasks, deadlines and facts from chats",
+  "author": "",
+  "license": "MIT",
+  "tags": ["telegram", "bot", "redis", "memory", "ai", "openai", "monitoring", "groups"],
+  "requirements": {
+    "python": ">=3.9",
+    "redis": true
+  },
+  "features": [
+    "Automatic extraction of decisions, tasks, deadlines",
+    "Rule-based + OpenAI hybrid classification",
+    "Redis Streams integration",
+    "Cost tracking with budgets",
+    "Webhook and polling modes",
+    "Idempotency protection"
+  ]
+}
